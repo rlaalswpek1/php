@@ -11,8 +11,8 @@
        <div class="logo"><a href="index.php"><img src="img/sena.png" alt="" class="logo"></a></div>
        <nav class="top">
            <ul>
-               <li><a href="#">로그인 |</a></li>
-               <li><a href="#">회원가입 |</a></li>
+               <li><a href="login.php">로그인 |</a></li>
+               <li><a href="join.php">회원가입 |</a></li>
                <li><a href="notice.php">게시판  |</a></li>
            </ul>
        </nav>

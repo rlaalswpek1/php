@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- 생성 시간: 17-01-04 06:43
+-- 생성 시간: 17-01-05 07:23
 -- 서버 버전: 10.1.19-MariaDB
 -- PHP 버전: 5.6.28
 
@@ -41,7 +41,7 @@ CREATE TABLE `notice` (
 INSERT INTO `notice` (`id`, `title`, `contents`, `writer`, `wdate`) VALUES
 (5, '첫번째', '글을', '씁니다', '2017-01-04 14:09:25'),
 (8, '요어오', '불러왔어요', '이제 가세요', '2017-01-04 14:32:58'),
-(9, '섯습니다 형님+', '지렸습니다', '노무현', '2017-01-04 14:38:42');
+(30, '한번에핫딜검색', '다함께쿠차차', '신동엽', '2017-01-05 11:17:38');
 
 --
 -- 덤프된 테이블의 인덱스
@@ -61,7 +61,7 @@ ALTER TABLE `notice`
 -- 테이블의 AUTO_INCREMENT `notice`
 --
 ALTER TABLE `notice`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

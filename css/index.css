@@ -36,3 +36,4 @@ a{text-decoration: none; color: white;}
 /*join*/
 .loginbox {width: 60%; height: 500px; background-color: white; margin: 20px auto 0; display:inline-block;}
 .form > label {width: 120px; height: 50px; margin: 20px 0 0; display: block;}
+.form > label input{width:150px;}

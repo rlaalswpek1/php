@@ -19,9 +19,9 @@
     if($login>0){
         $login = $rs->fetch();
         $_SESSION['login'] = $login['id'];
-        exit("<script>alert('성공^^'); location.href='index.php';</script>");
+        exit("<script>alert('성공했다 흔들어라!^^'); location.href='index.php';</script>");
     }
     else{
-        exit("<script>alert('실패노 이기야');location.href='index.php';</script>");
+        exit("<script>alert('실패노 이기야!');location.href='index.php';</script>");
     }
 ?>

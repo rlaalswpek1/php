@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- 생성 시간: 17-01-11 06:49
+-- 생성 시간: 17-01-20 07:35
 -- 서버 버전: 10.1.19-MariaDB
 -- PHP 버전: 5.6.28
 
@@ -89,7 +89,7 @@ ALTER TABLE `user`
 -- 테이블의 AUTO_INCREMENT `notice`
 --
 ALTER TABLE `notice`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 --
 -- 테이블의 AUTO_INCREMENT `user`
 --

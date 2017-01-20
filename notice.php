@@ -15,11 +15,16 @@
         $rs = $db->query($sql);
         foreach($rs as $row){
     ?>
-        <div class="listnum"></div>
+        <div class="view">
+            
+        <a href="view.php?id=<?=$row['id']?>">
+        <div class="listnum"><?=$row['id']?></div>
         <div class="title"><?=$row['title']?></div>
         <div class="contents"><?=$row['contents']?></div>
         <div class="writer"><?=$row['writer']?></div>
         <div class="wdate"><?=$row['wdate']?></div>
+        </a>
+        </div>
     <?php
         }
     ?>

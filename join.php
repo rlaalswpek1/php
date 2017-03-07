@@ -11,19 +11,23 @@ include("header.php");
             <label for="nick">닉네임<em>*</em> :<input type="text" size="10" placeholder="닉네임" name="nick" id="userpw" required pattern=".{1,20}"></label>
             <label for="birth">생년월일 :<input type="date" name="birth" id="birth" required></label>
             <label for="mail">이메일주소 :<input type="email" size="10" placeholder="이메일" name="mail" id="mail" required></label>
-            <button type="button" id="join">가입하기 </button>
+            <button type="submit" id="join">가입하기 </button>
          </form>    
-         </form>    
+             
         </div>
 </div>
 <script type="text/javascript">
 $("#join").click(function(){
     userpw = $("#userpw").val();
     pwcheck=$("#pwcheck").val();
+    inputs=$(".form input").val();
     if(userpw!=pwcheck){
-        alert("시발년아 다시해보세요");
-    }else{
-        alert("가입되었습니다 시발년아");
+        alert("다시하세요 띠-바");
+    }else if(inputs!=true){
+        alert("ㅊㅋㅊㅋ 가")
+    }    
+    else{
+        alert("ㅊㅋㅊㅋ 가입");
     }
 });
 </script>

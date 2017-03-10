@@ -25,28 +25,28 @@
             var text = "";
             switch(name){
                 case "rudy":
-                    text = "사랑해요 연예가중계";
+                    text = '<h2>루디 :</h2><br> "세븐나이츠에게 축복을.." ';
                     break;
                 case "kris":
-                    text = "깜지써라 씹쌔야";
+                    text = '<h2>크리스 :</h2><br> "나를 동정하지마라 루디.." ';
                     break;
                 case "jave":
-                    text = "살아있다 그분은..";
+                    text = '<h2>제이브 : </h2><br> "내가 신이다.." ';
                     break;
                 case "ileene":
-                    text = "말백이 싸-압 극혐";
+                    text = '<h2>아일린 : </h2><br> "소중한것을 잃지않겠다" ';
                     break;
                 case "rachel":
-                    text = "응늬AMI";
+                    text = '<h2>레이첼 : </h2><br> "친구인척해라 ^^" ';
                     break;
                 case "spike":
-                    text = "스핵만나는것도 실력이야ㅉㅉ";
+                    text = '<h2>스파이크 : </h2><br> "우리엄마 미국갔거든!" ';
                     break;
                 case "dellons":
-                    text = "ㅇㅋㄷㅋ";
+                    text = '<h2>델론즈 : </h2><br> "쿠쿡..전쟁을 『시작』한다." ';
                     break;
                     }
-            $("section > div").text(text);
+            $("section > div").html(text);
         });
     </script>
 </html>

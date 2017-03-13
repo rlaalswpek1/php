@@ -4,7 +4,7 @@
         $id = $_GET['id'];
     }
     else{
-        exit("<script>location.href=''</script>")
+        exit("<script>location.href=''</script>");
     }
 ?>
 <div class="mainbox"> 
